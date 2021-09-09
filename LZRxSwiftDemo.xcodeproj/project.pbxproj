@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		04F54E0826E9D7DA00FDBA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F54E0626E9D7DA00FDBA29 /* LaunchScreen.storyboard */; };
 		04F54E1326E9D7DA00FDBA29 /* LZRxSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E1226E9D7DA00FDBA29 /* LZRxSwiftDemoTests.swift */; };
 		04F54E1E26E9D7DA00FDBA29 /* LZRxSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54E1D26E9D7DA00FDBA29 /* LZRxSwiftDemoUITests.swift */; };
+		451E0804ED236706E41B3467 /* Pods_LZRxSwiftDemo_LZRxSwiftDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762EE7D8E696660CD6C19AFE /* Pods_LZRxSwiftDemo_LZRxSwiftDemoUITests.framework */; };
+		56E87EBDDA3D418EFCFCFDBB /* Pods_LZRxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182ED603CA58E3702D435888 /* Pods_LZRxSwiftDemo.framework */; };
+		981864F25494EA314C664F8A /* Pods_LZRxSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D1F87ED4CAC99E733255D1 /* Pods_LZRxSwiftDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		04F54E1926E9D7DA00FDBA29 /* LZRxSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZRxSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F54E1D26E9D7DA00FDBA29 /* LZRxSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LZRxSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		04F54E1F26E9D7DA00FDBA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182ED603CA58E3702D435888 /* Pods_LZRxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZRxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F242A738317E92A67CB21C /* Pods-LZRxSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZRxSwiftDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LZRxSwiftDemoTests/Pods-LZRxSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3410F47655E009867D39A3EE /* Pods-LZRxSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZRxSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-LZRxSwiftDemo/Pods-LZRxSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3EFA49272780EF87D830C18F /* Pods-LZRxSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZRxSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-LZRxSwiftDemo/Pods-LZRxSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		762EE7D8E696660CD6C19AFE /* Pods_LZRxSwiftDemo_LZRxSwiftDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZRxSwiftDemo_LZRxSwiftDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6C972AA2E1E0B4B847BD8D /* Pods-LZRxSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZRxSwiftDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-LZRxSwiftDemoTests/Pods-LZRxSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		935C4143A74757DC93812AF2 /* Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D1F87ED4CAC99E733255D1 /* Pods_LZRxSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZRxSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA4021E4A8B06136EFA1E60 /* Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E87EBDDA3D418EFCFCFDBB /* Pods_LZRxSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981864F25494EA314C664F8A /* Pods_LZRxSwiftDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451E0804ED236706E41B3467 /* Pods_LZRxSwiftDemo_LZRxSwiftDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				04F54E1126E9D7DA00FDBA29 /* LZRxSwiftDemoTests */,
 				04F54E1C26E9D7DA00FDBA29 /* LZRxSwiftDemoUITests */,
 				04F54DF926E9D7D700FDBA29 /* Products */,
+				8282E487B27F3A732C370A0D /* Pods */,
+				D64C56D7697898A3E7455DEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = LZRxSwiftDemoUITests;
 			sourceTree = "<group>";
 		};
+		8282E487B27F3A732C370A0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3410F47655E009867D39A3EE /* Pods-LZRxSwiftDemo.debug.xcconfig */,
+				3EFA49272780EF87D830C18F /* Pods-LZRxSwiftDemo.release.xcconfig */,
+				935C4143A74757DC93812AF2 /* Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.debug.xcconfig */,
+				CDA4021E4A8B06136EFA1E60 /* Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.release.xcconfig */,
+				8D6C972AA2E1E0B4B847BD8D /* Pods-LZRxSwiftDemoTests.debug.xcconfig */,
+				33F242A738317E92A67CB21C /* Pods-LZRxSwiftDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D64C56D7697898A3E7455DEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182ED603CA58E3702D435888 /* Pods_LZRxSwiftDemo.framework */,
+				762EE7D8E696660CD6C19AFE /* Pods_LZRxSwiftDemo_LZRxSwiftDemoUITests.framework */,
+				B5D1F87ED4CAC99E733255D1 /* Pods_LZRxSwiftDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F54E2226E9D7DA00FDBA29 /* Build configuration list for PBXNativeTarget "LZRxSwiftDemo" */;
 			buildPhases = (
+				460CF1A77D8C07B1739FE710 /* [CP] Check Pods Manifest.lock */,
 				04F54DF426E9D7D700FDBA29 /* Sources */,
 				04F54DF526E9D7D700FDBA29 /* Frameworks */,
 				04F54DF626E9D7D700FDBA29 /* Resources */,
+				818A65C4DBD809612A5970C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F54E2526E9D7DA00FDBA29 /* Build configuration list for PBXNativeTarget "LZRxSwiftDemoTests" */;
 			buildPhases = (
+				03ADCA91F380424B1D999941 /* [CP] Check Pods Manifest.lock */,
 				04F54E0A26E9D7DA00FDBA29 /* Sources */,
 				04F54E0B26E9D7DA00FDBA29 /* Frameworks */,
 				04F54E0C26E9D7DA00FDBA29 /* Resources */,
@@ -170,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F54E2826E9D7DA00FDBA29 /* Build configuration list for PBXNativeTarget "LZRxSwiftDemoUITests" */;
 			buildPhases = (
+				21D13458CF63D6A058B2C40F /* [CP] Check Pods Manifest.lock */,
 				04F54E1526E9D7DA00FDBA29 /* Sources */,
 				04F54E1626E9D7DA00FDBA29 /* Frameworks */,
 				04F54E1726E9D7DA00FDBA29 /* Resources */,
+				D6644506A7450FA2D8CA9D6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03ADCA91F380424B1D999941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZRxSwiftDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21D13458CF63D6A058B2C40F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		460CF1A77D8C07B1739FE710 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZRxSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		818A65C4DBD809612A5970C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZRxSwiftDemo/Pods-LZRxSwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZRxSwiftDemo/Pods-LZRxSwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LZRxSwiftDemo/Pods-LZRxSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6644506A7450FA2D8CA9D6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests/Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04F54DF426E9D7D700FDBA29 /* Sources */ = {
@@ -433,12 +581,14 @@
 		};
 		04F54E2326E9D7DA00FDBA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3410F47655E009867D39A3EE /* Pods-LZRxSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F3C6XHTT5;
 				INFOPLIST_FILE = LZRxSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +602,14 @@
 		};
 		04F54E2426E9D7DA00FDBA29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFA49272780EF87D830C18F /* Pods-LZRxSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F3C6XHTT5;
 				INFOPLIST_FILE = LZRxSwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +623,9 @@
 		};
 		04F54E2626E9D7DA00FDBA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6C972AA2E1E0B4B847BD8D /* Pods-LZRxSwiftDemoTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F3C6XHTT5;
@@ -493,8 +646,9 @@
 		};
 		04F54E2726E9D7DA00FDBA29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F242A738317E92A67CB21C /* Pods-LZRxSwiftDemoTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F3C6XHTT5;
@@ -515,8 +669,9 @@
 		};
 		04F54E2926E9D7DA00FDBA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935C4143A74757DC93812AF2 /* Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F3C6XHTT5;
 				INFOPLIST_FILE = LZRxSwiftDemoUITests/Info.plist;
@@ -535,8 +690,9 @@
 		};
 		04F54E2A26E9D7DA00FDBA29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA4021E4A8B06136EFA1E60 /* Pods-LZRxSwiftDemo-LZRxSwiftDemoUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F3C6XHTT5;
 				INFOPLIST_FILE = LZRxSwiftDemoUITests/Info.plist;
