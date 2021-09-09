@@ -39,6 +39,13 @@ class HomeViewController: UIViewController {
         
         tableView.rx.itemSelected.subscribe(onNext: { indexpath in
             print("- row =" + String( indexpath.row))
+            switch indexpath.row {
+            case 0:
+                let vc = ReloadTableViewController()
+                self.navigationController?.pushViewController(vc, animated: true)
+            default :
+                break
+            }
         }).disposed(by: rx.disposeBag)
     }
     func setupNavBar() {
