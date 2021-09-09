@@ -12,9 +12,7 @@ import RxCocoa
 import NSObject_Rx
 import RxDataSources
 
-class ReloadTableViewController: UIViewController {
-    var items = Observable.just(  ["a","b","c"] )
-    
+class ReloadTableViewController: UIViewController {    
     lazy var tableView: UITableView = {
         let table = UITableView(frame: view.bounds)
         return table
