@@ -11,7 +11,7 @@ import RxCocoa
 import NSObject_Rx
 
 class HomeViewController: UIViewController {
-    var items = Observable.just(  ["RxSwift tableView刷新","b","c"] )
+    var items = Observable.just(  ["RxSwift tableView刷新","Driver用法demo","c"] )
     
     lazy var tableView: UITableView = {
         let table = UITableView(frame: view.bounds)
@@ -25,7 +25,6 @@ class HomeViewController: UIViewController {
         self.view.backgroundColor = .white
         self.title = "荔枝的RxSwiftDemo"
         setupTable()
-        setupNavBar()
     }
     
     func setupTable()  {
@@ -43,16 +42,14 @@ class HomeViewController: UIViewController {
             case 0:
                 let vc = ReloadTableViewController()
                 self.navigationController?.pushViewController(vc, animated: true)
+            case 1:
+                let driverStoryBoard = UIStoryboard.init(name: "Driver", bundle: nil)
+                let vc = driverStoryBoard.instantiateViewController(identifier: "DriverViewController")
+                self.navigationController?.pushViewController(vc, animated: true)
             default :
                 break
             }
         }).disposed(by: rx.disposeBag)
-    }
-    func setupNavBar() {
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "刷新", style: UIBarButtonItem.Style.plain, target: self, action: #selector(Self.refreshClick))
-    }
-    @objc func refreshClick()  {
-         items = Observable.just(  ["OC","Swift"] )
     }
     
 }
